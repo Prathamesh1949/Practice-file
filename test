@@ -94,8 +94,10 @@ git init
 git remote add origin //copy link
 ssh-keygen -t rsa -b 4094 -C "gmail"
       (gitkey)
+git add
+git commit -m
 git add gitkey
-git add gitkey.oub
+git add gitkey.pub
 git remote show origin
 git status
 git push -u origin master
